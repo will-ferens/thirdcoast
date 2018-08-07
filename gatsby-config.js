@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Third Coast Family Practice',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
