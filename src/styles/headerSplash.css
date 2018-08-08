@@ -1,5 +1,5 @@
 .wrapper {
-    background: rebeccapurple;
+    background: #2F5390;
     margin-bottom: 1.45rem;
     height: 60vh;
     display: grid;
@@ -35,9 +35,9 @@
 
 @media all and (max-width: 768px) { 
     .wrapper {
-        background: rebeccapurple;
+        background: #2F5390;;
         margin-bottom: 1.45rem;
-        height: 60vh;
+        height: 40vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 3fr 1fr;
@@ -70,20 +70,19 @@
 
 @media all and (max-width: 480px) { 
     .wrapper {
-        background: rebeccapurple;
+        background: #2F5390;;
         margin-bottom: 1.45rem;
-        height: 30vh;
+        height: 35vh;
         display: grid;
         grid-gap: 16px;
     }
-
 
     .nav {
         list-Style: none;
         text-Decoration: none;
         display: flex;
         justify-content: space-around;
-        padding: 10px;
+
     }
     .nav-item {
         font-size: 12px;

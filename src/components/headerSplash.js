@@ -15,10 +15,10 @@ const HeaderSplash = ({ siteTitle }) => (
         gridTemplateColumns: '1fr 1fr 1fr 1fr',
       }}
       >
-        <li><Link className="nav-item">Home</Link></li>
-        <li><Link className="nav-item">Services</Link></li>
-        <li><Link className="nav-item">Care</Link></li>
-        <li><Link className="nav-item">New Patients</Link></li>
+        <li><Link className="nav-item" to="/">Home</Link></li>
+        <li><Link className="nav-item" to="/services/">Services</Link></li>
+        <li><Link className="nav-item" to="/care/">Care</Link></li>
+        <li><Link className="nav-item" to="/newpatients">New Patients</Link></li>
       </ul>
     </div>
     <div

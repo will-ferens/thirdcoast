@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+import Footer from '../components/footer'
 import HeaderSplash from '../components/headerSplash'
 import './index.css'
 
@@ -25,6 +26,7 @@ const Layout = ({ children, data }) => (
     >
       {children()}
     </div>
+    <Footer />
   </div>
 )
 
