@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Footer from '../components/footer'
 import HeaderSplash from '../components/headerSplash'
 
+import '../styles/index.css'
 
 const Layout = ({ children, data }) => (
   <div>
