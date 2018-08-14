@@ -4,7 +4,23 @@
     grid-gap: 16px;
 }
 
+.content-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+.practice {
+    height: 200px;
 
+}
+#map {
+    height: 200px;
+}
+.doc {
+    height: 300px;
+    float: right;
+    padding: 10px;
+}
 @media all and (max-width: 768px) { 
     .content {
         display: grid;
@@ -12,10 +28,30 @@
         max-width: 750px;
         grid-gap: 16px;
     }
+
+    .content-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 750px;
+        grid-gap: 16px;
+    }
+
+    .doc {
+        align: right;
+        height: 250px;
+        float: right;
+        padding: 12px;
+    }
 }
 
 @media all and (max-width: 480px) { 
     .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 460px;
+        grid-gap: 16px;
+    }
+    .content-2 {
         display: grid;
         grid-template-columns: 1fr;
         max-width: 460px;
